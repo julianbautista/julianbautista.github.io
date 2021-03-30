@@ -110,7 +110,7 @@ ol li
 { width: 860px;
   position: relative;
   height: 300px;
-}
+  object-fit: cover;}
 
 #logo #logo_text 
 { position: absolute; 
