@@ -104,13 +104,13 @@ ol li
 { padding-bottom: 40px;}
 
 #header
-{ background: transparent url(sdss_header.jpg) no-repeat;}
+{ background: transparent url(sdss_header_cut.jpg) no-repeat;}
 
 #logo
 { width: 860px;
   position: relative;
-  height: 200px;
-  object-fit: cover;}
+  height: 300px;
+  object-fit: contain;}
 
 #logo #logo_text 
 { position: absolute; 
