@@ -17,7 +17,9 @@ h1, h2, h3, h4, h5, h6
 { font: normal 150% 'helvetica', arial, sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
-  padding: 15px 0 5px 0;}
+  padding: 15px 0 5px 0;
+  text-shadow: 3px 3px 3px #a0a0a0;
+}
 
 h2
 { font: normal 150% 'helvetica', arial, sans-serif;
@@ -107,7 +109,7 @@ ol li
 { background: transparent url(sdss_header_cut.png) no-repeat;}
 
 #logo
-{ width: 80%;
+{ width: 90%;
   position: relative;
   height: 300px;
   object-fit: cover;}
@@ -190,14 +192,15 @@ ul#menu li a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 /*10px 20px 20px 20px*/;
-  background: #F6F6F0; /* url(back.png) repeat-y; */
-  border: 15px solid #FFF;} 
+  background: #ebebe4; /* url(back.png) repeat-y; */
+  border: 15px solid #FFF;
+  } 
 
 .sidebar
 { float: right;
   width: 30%;
-  padding: 0 /*15px 20px 15px*/;
-  border: 15px solid #FFF;}
+  padding: 20px /*15px 20px 15px*/;
+}
 
 .sidebar ul
 { padding: 4px 0 0 0; 
@@ -218,15 +221,16 @@ ul#menu li a:hover
 
 #content
 { text-align: left;
-  width: 70%;
-  padding:  20px;}
+  width: 56%;
+  padding:  20px;
+  }
 
 #content ul
 { margin: 2px 0 2px 2px;}
 
 #content ul li
 { list-style-type: none;
-  background: url(bullet.png) no-repeat left center;
+  background: url(bullet.png) no-repeat left;
   margin: 0 0 0 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
@@ -311,15 +315,39 @@ ul#menu li a:hover
   margin: 0 0 20px 0;}
   
 table
-{ margin: 10px 0 30px 0;}
+{ width: 100%;
+  margin: 10px 0 10px 0;}
 
 table tr th, table tr td
-{ background: #3B3B3B;
-  color: #FFF;
-  padding: 7px 4px;
-  text-align: left;}
+{ background: #ffffff;
+  padding: 10px 4px;
+  text-align: left;
+  font-size: 100%;
+}
   
 table tr td
-{ background: #E5E5DB;
-  color: #47433F;
-  border-top: 1px solid #FFF;}
+{ background: #ffffff;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
