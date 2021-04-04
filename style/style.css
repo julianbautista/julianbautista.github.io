@@ -55,6 +55,7 @@ img
   margin: 0px; 
   padding: 0px;}
 
+
 a
 { outline: none;}
 
@@ -339,7 +340,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #FC9C04;
 }
 
 div.gallery img {
@@ -350,4 +351,9 @@ div.gallery img {
 div.desc {
   padding: 10px;
   text-align: center;
+}
+
+#hp  {
+  float: left;    
+  margin: 10px 25px 10px 0px;
 }
