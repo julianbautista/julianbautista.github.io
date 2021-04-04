@@ -189,7 +189,7 @@ ul#menu li a:hover
 { width: 80%;
   overflow: hidden;
   margin: 0 auto 0 auto;
-  padding: 10px 20px 20px 20px;
+  padding: 0 /*10px 20px 20px 20px*/;
   background: #F6F6F0; /* url(back.png) repeat-y; */
   border: 15px solid #FFF;} 
 
@@ -219,7 +219,7 @@ ul#menu li a:hover
 #content
 { text-align: left;
   width: 70%;
-  padding: 0;}
+  padding:  20px;}
 
 #content ul
 { margin: 2px 0 2px 2px;}
