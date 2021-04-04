@@ -227,26 +227,25 @@ ul#menu li a:hover
   }
 
 #content ul
-{ margin: 2px 0 2px 2px;}
+{ margin: 2px 0 2px 20px;}
 
 #content ul li
-{ list-style-type: none;
-  background: url(bullet.png) no-repeat left;
+{ list-style-type: circle;
+  /*background: url(bullet.png) no-repeat left center*/
   margin: 0 0 0 0; 
-  padding: 0 0 4px 25px;
+  padding: 4px 0 4px 10px;
   line-height: 1.5em;}
 
 #footer
 { width: 916px;
   font-family: 'helvetica', sans-serif;
-  font-size: 90%;
+  font-size: 80%;
   height: 28px;
   padding: 20px 0 5px 0;
   text-align: center; 
   background: transparent;
-  color: #EEF3CD;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;}
+  color: #ffffff;
+}
 
 #footer p
 { padding: 0;}
@@ -356,4 +355,5 @@ div.desc {
 #hp  {
   float: left;    
   margin: 10px 25px 10px 0px;
+  border: 3px solid #FFF;
 }
