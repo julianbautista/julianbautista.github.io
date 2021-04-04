@@ -14,17 +14,17 @@ p
   line-height: 2em;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 200% 'helvetica', arial, sans-serif;
+{ font: normal 150% 'helvetica', arial, sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
-{ font: normal 170% 'helvetica', arial, sans-serif;
+{ font: normal 150% 'helvetica', arial, sans-serif;
   color: #0AB6F6;}
 
 h3
-{ font: normal 125% 'century gothic', arial, sans-serif;}
+{ font: normal 125% 'helvetica', arial, sans-serif;}
 
 h4, h5, h6
 { margin: 0;
@@ -107,7 +107,7 @@ ol li
 { background: transparent url(sdss_header_cut.png) no-repeat;}
 
 #logo
-{ width: 860px;
+{ width: 80%;
   position: relative;
   height: 300px;
   object-fit: cover;}
@@ -118,7 +118,7 @@ ol li
   left: 0;}
 
 #logo h1, #logo h2
-{ font: normal 500% 'helvetiva', arial, sans-serif;
+{ font: normal 400% 'helvetiva', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;}
@@ -137,14 +137,14 @@ ol li
 { color: #FFF;}
 
 #logo_text h2
-{ font-size: 200%;
+{ font-size: 150%;
   padding: 4px 0 0 0;
   text-shadow: 3px 3px 3px #3b3b3b;
   color: #fff;}
 
 #menubar
-{ width: 870px;
-  height: 46px;
+{ width: 80%;
+  height: 60px;
   padding-top: 4px;
   padding-left: 4px;} 
 
@@ -169,6 +169,7 @@ ul#menu li a
   padding: 9px 15px 5px 15px;
   text-align: center;
   color: #FFF;
+  text-shadow: 3px 3px 3px #3b3b3b;
   border: none;} 
 
 ul#menu li.selected a
@@ -185,7 +186,7 @@ ul#menu li a:hover
 { color: #FC9C04;}
 
 #site_content
-{ width: 858px;
+{ width: 80%;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 10px 20px 20px 20px;
@@ -194,13 +195,13 @@ ul#menu li a:hover
 
 .sidebar
 { float: right;
-  width: 190px;
+  width: 20%;
   padding: 0 15px 20px 15px;}
 
 .sidebar ul
-{ width: 178px; 
+{ width: 20%; 
   padding: 4px 0 0 0; 
-  margin: 4px 0 30px 0;}
+  margin: 4px 0 10px 0;}
 
 .sidebar li
 { list-style: none; 
@@ -217,7 +218,7 @@ ul#menu li a:hover
 
 #content
 { text-align: left;
-  width: 613px;
+  width: 60%;
   padding: 0;}
 
 #content ul
@@ -232,7 +233,7 @@ ul#menu li a:hover
 
 #footer
 { width: 916px;
-  font-family: 'trebuchet ms', sans-serif;
+  font-family: 'helvetica', sans-serif;
   font-size: 90%;
   height: 28px;
   padding: 20px 0 5px 0;
