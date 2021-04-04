@@ -201,14 +201,14 @@ ul#menu li a:hover
 .sidebar ul
 { width: 25%; 
   padding: 4px 0 0 0; 
-  margin: 4px 0 10px 0;}
+  margin: 4px 0 10px 10px;}
 
 .sidebar li
 { list-style: none; 
   padding: 0 0 7px 0; }
 
 .sidebar li a, .sidebar li a:hover
-{ padding: 0 0 0 35px;
+{ padding: 0 0 0 0;
   display: block;
   background: transparent url(bullet.png) no-repeat left center;
   border: 0;} 
@@ -222,13 +222,13 @@ ul#menu li a:hover
   padding: 0;}
 
 #content ul
-{ margin: 2px 0 2px 0px;}
+{ margin: 2px 0 2px 2px;}
 
 #content ul li
 { list-style-type: none;
-  background: url(bullet.png) no-repeat;
+  background: url(bullet.png) no-repeat left center;
   margin: 0 0 0 0; 
-  padding: 0 0 4px 4px;
+  padding: 0 0 4px 25px;
   line-height: 1.5em;}
 
 #footer
