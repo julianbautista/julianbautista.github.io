@@ -6,7 +6,10 @@ body
   margin: 0px;
   font-size: 1.2em;
   background: #090708;
-  color: #5D5D5D;}
+  color: #3d3d3d;
+  background-image:  url("star_field.png");
+}
+  
 
 p
 { margin: 0px;
@@ -43,7 +46,7 @@ h6
 
 a, a:hover
 { /*border-bottom: 1px dotted;*/
-  color: #635B53;
+  color: #3d3d3d;
   text-decoration: none;}
 
 a:hover
@@ -53,7 +56,8 @@ a:hover
 img
 { border: 0px; 
   margin: 0px; 
-  padding: 0px;}
+  padding: 0px;
+}
 
 
 a
@@ -104,20 +108,24 @@ ol li
   margin-right: auto;}
 
 #main
-{ padding-bottom: 40px;}
+{ padding-bottom: 20px;}
 
 #header
-{ background: transparent url(sdss_header_cut.png) no-repeat;}
+{ background: transparent url(sdss_header_cut.png) no-repeat ;
+  background-size: cover;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 #logo
-{ width: 80%;
+{ width: 90%;
   position: relative;
-  height: 300px;
+  height: 250px;
   object-fit: cover;}
 
 #logo #logo_text 
 { position: absolute; 
-  top: 47px;
+  top: 20px;
   left: 0;}
 
 #logo h1, #logo h2
@@ -146,7 +154,7 @@ ol li
   color: #fff;}
 
 #menubar
-{ width: 80%;
+{ width: 90%;
   height: 60px;
   padding-top: 4px;
   padding-left: 4px;} 
@@ -193,8 +201,9 @@ ul#menu li a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 /*10px 20px 20px 20px*/;
-  background: #ebebe4; /* url(back.png) repeat-y; */
-  border: 15px solid #FFF;
+  background:  #ebebe4; /* url(back.png) repeat-y; */
+  /*border: 15px solid #FFF;*/
+  border: 15px solid #000000 ;
   } 
 
 .sidebar
@@ -218,12 +227,13 @@ ul#menu li a:hover
   border: 0;} 
 
 .sidebar li a.selected
-{ color: #444;} 
+{   color: #3d3d3d;
+} 
 
 #content
 { text-align: left;
-  width: 56%;
-  padding:  20px;
+  width: 60%;
+  padding: 20px 0px 20px 40px;
   }
 
 #content ul
@@ -353,7 +363,7 @@ div.desc {
 }
 
 #hp  {
-  float: left;    
-  margin: 10px 25px 10px 0px;
+  float: right;    
+  margin: 10px 0px 10px 20px;
   border: 3px solid #FFF;
 }
