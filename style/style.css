@@ -1,26 +1,26 @@
 html{height: 100%;}
 
 body
-{ font-family: "lucida sans", arial, sans-serif;
+{ font-family: "helvetica", arial, sans-serif;
   padding: 0px;
   margin: 0px;
-  font-size: .78em;
+  font-size: 1.2em;
   background: #090708;
   color: #5D5D5D;}
 
 p
 { margin: 0px;
   padding: 0px 0px 16px 0px;
-  line-height: 1.7em;}
+  line-height: 2em;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 179% 'century gothic', arial, sans-serif;
+{ font: normal 200% 'helvetica', arial, sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
-{ font: normal 170% 'century gothic', arial, sans-serif;
+{ font: normal 170% 'helvetica', arial, sans-serif;
   color: #0AB6F6;}
 
 h3
