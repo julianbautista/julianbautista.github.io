@@ -42,7 +42,7 @@ h6
 { color: #362C20;}
 
 a, a:hover
-{ border-bottom: 1px dotted;
+{ /*border-bottom: 1px dotted;*/
   color: #635B53;
   text-decoration: none;}
 
@@ -109,7 +109,7 @@ ol li
 { background: transparent url(sdss_header_cut.png) no-repeat;}
 
 #logo
-{ width: 90%;
+{ width: 80%;
   position: relative;
   height: 300px;
   object-fit: cover;}
