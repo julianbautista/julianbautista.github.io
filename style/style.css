@@ -199,7 +199,7 @@ ul#menu li a:hover
   padding: 0 15px 20px 15px;}
 
 .sidebar ul
-{ width: 25%; 
+{ width: 90%; 
   padding: 4px 0 0 0; 
   margin: 4px 0 10px 10px;}
 
@@ -208,7 +208,7 @@ ul#menu li a:hover
   padding: 0 0 7px 0; }
 
 .sidebar li a, .sidebar li a:hover
-{ padding: 0 0 0 0;
+{ padding: 0 0 0 25px;
   display: block;
   background: transparent url(bullet.png) no-repeat left center;
   border: 0;} 
