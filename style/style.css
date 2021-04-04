@@ -195,11 +195,11 @@ ul#menu li a:hover
 
 .sidebar
 { float: right;
-  width: 20%;
+  width: 25%;
   padding: 0 15px 20px 15px;}
 
 .sidebar ul
-{ width: 20%; 
+{ width: 25%; 
   padding: 4px 0 0 0; 
   margin: 4px 0 10px 0;}
 
@@ -210,7 +210,7 @@ ul#menu li a:hover
 .sidebar li a, .sidebar li a:hover
 { padding: 0 0 0 35px;
   display: block;
-  background: transparent url(link.png) no-repeat left center;
+  background: transparent url(bullet.png) no-repeat left center;
   border: 0;} 
 
 .sidebar li a.selected
@@ -218,17 +218,17 @@ ul#menu li a:hover
 
 #content
 { text-align: left;
-  width: 60%;
+  width: 75%;
   padding: 0;}
 
 #content ul
-{ margin: 2px 0 22px 0px;}
+{ margin: 2px 0 2px 0px;}
 
 #content ul li
 { list-style-type: none;
   background: url(bullet.png) no-repeat;
   margin: 0 0 0 0; 
-  padding: 0 0 4px 25px;
+  padding: 0 0 4px 4px;
   line-height: 1.5em;}
 
 #footer
