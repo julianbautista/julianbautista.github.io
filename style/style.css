@@ -46,7 +46,7 @@ a, a:hover
 
 a:hover
 { border-bottom: 1px solid;
-  color: #00C5EE;}
+  color: #FC9C04;}
 
 img
 { border: 0px; 
@@ -190,7 +190,7 @@ ul#menu li a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 10px 20px 20px 20px;
-  background: #F6F6F0 url(back.png) repeat-y;
+  background: #F6F6F0; /* url(back.png) repeat-y; */
   border: 15px solid #FFF;} 
 
 .sidebar
